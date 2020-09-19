@@ -1,0 +1,43 @@
+
+div {
+    padding:10px;
+}
+
+.parent {
+    background-color:teal;
+    color: white;
+    align-items: 'center';
+    display:flex;
+    direction: row;
+    border-bottom: 1px solid grey;
+    justify-content: space-between;
+}
+
+.parent div {
+    font-weight: bold;
+}
+
+.parentFlex {
+    display:flex;
+    direction: row;
+    border-bottom: 1px solid grey;
+    justify-content: space-between;
+}
+
+.postButton {
+    background-color: transparent;
+    border: 0;
+    color:teal;
+    text-decoration-line: underline;
+    cursor: pointer;
+    outline: 0;
+}
+
+
+.col1{
+    width: 200px;
+}
+
+.col2{
+    width: 250px;
+}

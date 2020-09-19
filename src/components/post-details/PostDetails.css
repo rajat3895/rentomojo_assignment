@@ -1,0 +1,70 @@
+p {
+    margin: 20px;
+}
+
+.postCard {
+    border: 2px solid grey;
+    border-radius: 12px;
+    width: fit-content;
+    margin: 20px;
+}
+
+.headerClassDetails {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+
+.subHeaderClass {
+    flex: 0.8px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+
+.deleteBtn {
+    margin: 20px;
+    font-weight:bold;
+    background-color: transparent;
+    border-width: 2px;
+    border-color: red;
+    color: black;
+    cursor: pointer;
+    outline: 0px;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px
+}
+
+.deleteBtn:hover{
+    background-color: red;
+}
+
+.title{
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.showCommentsLink{
+    margin: 20px;
+    background-color: transparent;
+    border: 0px;
+    color:teal;
+    text-decoration-line: underline;
+    cursor: pointer;
+    outline: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.email {
+    text-decoration-line: underline;
+    color: teal;
+}
+
+.flexStyle{
+    flex: 0.2px;
+}

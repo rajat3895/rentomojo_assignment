@@ -1,0 +1,30 @@
+.btnClass {
+    background-color: transparent;
+    border-width: 2px;
+    box-shadow: none;
+    border-color:grey;
+    color:black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    direction: column;
+    margin-top: 30px;
+    text-decoration-line: none;
+}
+
+button:hover {
+    color: green
+}
+
+div{
+    margin: 20px;
+}
+
+.text{
+    font-size:24px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
